@@ -1,0 +1,36 @@
+[Q] How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+R: Because it will simplify the code and show only what have changed, leaving a much-shorter version of the code to find the bug.
+
+
+[Q] How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+R: There might be various reasons, but for me the most important is that sometimes you make serious changes in your code, and then you might face a bug that is willing you to roll back to the previous version. So, instead of having to manually roll back to the previous version by re-writing everything, and can simply recover the code from the file history.
+
+
+[Q] What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+R: The main con is that you might not commit in time when something bad happen to your machine or something similar that make you lose your progress. The good part of doing it manually is that you have control of what you commit, so it can be organized and it doesn't automatically comit when your code isn't ready to run.
+
+
+[Q] Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+R: Because Git mainly works with code files, while Google Docs usually works with rich-text editors, and rich-text files usually are independent of other files, while code files can be nested, which means a change in a code file can affect another code file.
+
+
+[Q] How can you use the commands git log and git diff to view the history of files?
+
+R: In Git Bash, go to the intended project's directory (with cd comand) and type 'git log' to list the version-control log, which each commit will have an ID that can be used to compare versions, like this: 
+
+	$ git diff id-from-commit-x id-from-commit-y
+
+
+[Q] How might using version control make you more confident to make changes that could break something?
+
+R: Well, if you depend entirely on your brain to remember every changes you've made to the code, you're probably going to have bad time.
+So it's better to have multiple versions of your own code, so if any bug appeared in the current build, you may be able to checkout the last version and verify what you have changed to make that bug appear.
+
+
+[Q] Now that you have your workspace set up, what do you want to try using Git for?
+
+R: I want to create a project with code and modify it, make various commits and then upload to GitHub.
