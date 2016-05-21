@@ -29,3 +29,9 @@ R: A project might have multiple branches and would be hard to check it just by 
 
 R: Git will try to automatically merge both files form each branch by comparing it's lines and also checking the commit's history, so it can be sure when to remore/add or not a specific line of code.
 Knowing how the diagram looks like helps we understand better what are the nodes and it's parents for each branch, so we don't make any mistake when merging up. 
+
+
+[Q] What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+R: Sometimes two commits's - which are gonna be merged - only differences are lines added and/or removed, which Git could merge it automatically.
+Doing it manually would imply in too much time figuring out if that "add" and/or "remove" was the right thing to do comparing to old commits. 
