@@ -8,3 +8,24 @@ It's needed because you will be able to use to Git/version control commands, whe
 
 R: The difference is that the staging area is just a "preparation" area, only contains the files you want to confirm a change, while the working area contains all files of your project, those which area independent of comits. 
 The purpose of the staging area is that you have control from what you want to comit, even if you add some file you regret adding you can just remove it from the staging area by using the command "git reset file".
+
+
+[Q] How can you use the staging area to make sure you have one commit per logical change?
+
+R: You can use the command 'git diff --staged', which will display the changes made to the files located in the staging area.
+
+[Q] What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+R: Branches would be helpful if I wanted to leave different working versions of my project separated by type/language/difficulty/location/etc. 
+For example: some Udacity courses projects are stored in Github, and the projects are usually divided by branches, each branch containing the amount of code for that specific lesson, so it helps the student focus on the code intended only for that lesson.
+
+
+[Q] How do the diagrams help you visualize the branch structure?
+
+R: A project might have multiple branches and would be hard to check it just by running 'git log --graph --oneline' and check one by one.
+
+
+[Q] What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+R: Git will try to automatically merge both files form each branch by comparing it's lines and also checking the commit's history, so it can be sure when to remore/add or not a specific line of code.
+Knowing how the diagram looks like helps we understand better what are the nodes and it's parents for each branch, so we don't make any mistake when merging up. 
