@@ -23,3 +23,10 @@ I would create branches when I would like to have a different version of my main
 
 R: The main reason is that you won't be *too out-dated*, which means that if that happens, the chances you're gonna have to do complicated merges when you finally pull are big. 
 Being out-dated also means that you won't have all the resources for you to code locally, and sometimes you've code offline, so you might want to have the up-to-date source code.
+
+
+[Q] How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+R: I used to work with Team Services version control for Visual Studio in an enterprise I worked for. It was a good service, though it needed our own private server. It was pretty much easy to use since it was integrated with Visual Studio, so it would be probably the one I would be using without Git.
+The thing is that we would only be able to have our own repository without GitHub (of course, I could manually get code from websites, but without collaboration). 
+So VS with TS would be good for an enterprise, but too much stuff for myself. Git and GitHub it's so easy and simple that I would stick to that.
