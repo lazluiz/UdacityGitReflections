@@ -6,3 +6,14 @@ R: When I would like to make it public to other people, or to work remotely with
 [Q] Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 R: If you are working with other people in the same remote repository, it might happen to you get suprise codes when Git automatically pull, mainly if the codes are related to the one(s) you are working with.
+
+
+[Q] Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+R: Forks it's when you copy a repository from another account to yours exatcly how it is, and you are able to edit it for yourself without making any changes on the source repository.
+Clone is the same as copying an entire directory, which means a fork is a clone as well, but from Github to Github. You can also clone a repo from Github to your computer, or clone a repo from your computer to another computer or even so to another place from your computer.
+Branches are part of a repository, starting with the 'master' branch, but you can create others to have parallel code from your master branch. 
+
+I would use fork when I like a project from someone else in Github, but I want to make some changes to it without changing their repository.
+I would use clone whenever I want to have a local copy of a repository, be it for testing or for using it in a project (e.g: jQuery library) or for editing.
+I would create branches when I would like to have a different version of my main code, like adding some new feature but not making it "official" yet.
