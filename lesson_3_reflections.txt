@@ -17,3 +17,9 @@ Branches are part of a repository, starting with the 'master' branch, but you ca
 I would use fork when I like a project from someone else in Github, but I want to make some changes to it without changing their repository.
 I would use clone whenever I want to have a local copy of a repository, be it for testing or for using it in a project (e.g: jQuery library) or for editing.
 I would create branches when I would like to have a different version of my main code, like adding some new feature but not making it "official" yet.
+
+
+[Q] What is the benefit of having a copy of the last known state of the remote stored locally?
+
+R: The main reason is that you won't be *too out-dated*, which means that if that happens, the chances you're gonna have to do complicated merges when you finally pull are big. 
+Being out-dated also means that you won't have all the resources for you to code locally, and sometimes you've code offline, so you might want to have the up-to-date source code.
