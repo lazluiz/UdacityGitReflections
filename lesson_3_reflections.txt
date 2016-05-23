@@ -30,3 +30,10 @@ Being out-dated also means that you won't have all the resources for you to code
 R: I used to work with Team Services version control for Visual Studio in an enterprise I worked for. It was a good service, though it needed our own private server. It was pretty much easy to use since it was integrated with Visual Studio, so it would be probably the one I would be using without Git.
 The thing is that we would only be able to have our own repository without GitHub (of course, I could manually get code from websites, but without collaboration). 
 So VS with TS would be good for an enterprise, but too much stuff for myself. Git and GitHub it's so easy and simple that I would stick to that.
+
+
+[Q] When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+R: When I would like to create a new feature for my project or for someone else's project, so it doesn't interfere in the master branch.
+The thing is that a new feature sometimes depend on some functions and we would like to work this new feature in a separated branch, so if the master's code update we still keep working with the same functions and then later we can fix that by merging. 
+Also, if you are developing a new feature, you might giving up doing it for some reason, and it's way easier to just delete the branch than to remove the code from the master.
